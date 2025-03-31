@@ -1,0 +1,7 @@
+# ninja log v5
+0	1579	7651309648705746	CMakeFiles/PROJECT.dir/main.cpp.obj	f8cb6a59cc8418ca
+10	4075	7651309673559123	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	d6b75b6cfe6256d7
+18	5227	7651309685208660	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	ecf7363bf523479b
+5228	6165	7651309694583200	_deps/fmt-build/libfmtd.a	5898c63ac52687e
+6	7800	7651309710788758	CMakeFiles/PROJECT.dir/Classes_And_Functions.cpp.obj	b55b2362b84d9c2f
+7800	11331	7651309746174956	PROJECT.exe	b99de358d8282f32

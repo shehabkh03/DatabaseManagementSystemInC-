@@ -1,0 +1,3 @@
+create table tab1 (id int,name string,age int,birthdate date) constraint pk_tab1_id primary key (id)
+insert into tab1 (id, name, age, birthdate) values (1, shehab, 20, 2003-09-24)
+insert into tab1 (id, name, age, birthdate) values (2, john, 25, 1998-04-30)

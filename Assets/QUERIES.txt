@@ -1,0 +1,35 @@
+create table tab1 (id int,name string,age int,birthdate date) constraint pk_tab1_id primary key (id)
+insert into tab1 (id,name,age,birthdate) values (1,shehab,20,2003-09-24)
+insert into tab1 (id,name,age,birthdate) values (1,john,25,1998-04-30)
+insert into tab1 (id,name,age,birthdate) values (2,john,25,1998-04-30)
+create table tab2 (id int,name string,age int) constraint pk_tab2_id primary key (id)
+insert into tab2 (id,name,age) values (1,shehab,20)
+insert into tab2 (id,name,age) values (2,john,25)
+select * from tab1
+select id,name from tab1
+alter table tab1 add phone int
+select * from tab1
+update tab1 set phone = 12345679 where id = 1
+select * from tab1
+update tab1 set phone = 12345678 where name = 'john'
+select * from tab1
+select * from tab1 where name = 'shehab'
+select id,name from tab1 where name = 'shehab'
+select id,name,age from tab1 where age > 20
+select id,name,age,birthdate from tab1 where birthdate < 2003-09-24
+alter table tab1 drop phone
+all tables
+save tab1
+save tab2
+delete from tab1 where id = 1
+all tables
+drop table tab1
+all tables
+delete from tab2
+drop table tab2
+all tables
+load tab1
+load tab2
+select * from tab1
+select * from tab2
+
